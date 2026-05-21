@@ -53,7 +53,7 @@ const LoginForm = ({role, title, subtitle}) => {
              
             </div>
             <button type='submit' disabled={loading} className='w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700 transition-colors disabled:bg-indigo-300'>
-              {loading && <Loader2Icon className='animate-spin h-4 w-4 mr-2'/>} Sign In
+              {loading && <Loader2Icon className='animate-spin h-4 w-4 mr-2'    />} Sign In
             </button>
           </form>
 
